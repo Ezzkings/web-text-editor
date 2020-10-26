@@ -6,24 +6,39 @@
     <title>Text Editor</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/estilo-calculator.css" rel="stylesheet" type="text/css">
+    <link href="css/estilo-text-editor.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
-    <header>
+    <header class="head">
         <div>
-            <h1>Eae mundo</h1>
-            <p>Isso aqui é uma calculadora para eu treina minhas habilidades em HTML, CSS e JavaScript, e mais tarde haverá muitos mais
+            <h1 class="title">WebSite editor de texto</h1>
+            <p class="text">Editor de texto online para treino de habilidades em HTML, CSS e JavaScript
             </p>
         </div>
     </header>
     <br>
-    <section>
-        <div>
-
-        </div>
+        <section class="container">
+            <h3 class="title text-uppercase">Text Editor</h3>
+            <div class="container-editor">
+                <tr>
+                    <td class="calc_td_btn">
+                        <input type="button" value="1" class="btn btn-pink calc_btn" onclick="funcao('1')">
+                    </td>
+                    <td class="calc_td_btn">
+                        <input type="button" value="2" class="btn btn-pink calc_btn" onclick="funcao('2')">
+                    </td>
+                    <td class="calc_td_btn">
+                        <input type="button" value="3" class="btn btn-pink calc_btn" onclick="funcao('3')">
+                    </td>
+                    <td class="calc_td_btn">
+                        <input type="button" value="&Cross;" class="btn btn-primary calc_btn" onclick="funcao('*')">
+                    </td>
+                </tr>
+        </div><br>
     </section>
-    <footer class="copyright title">Copyright &copy; 2020 Enzzo Oliveira</footer>
+    <br>
+    <footer class="copyright">Copyright &copy; 2020 Enzzo Oliveira</footer>
     
 </body>
 </html>
